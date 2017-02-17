@@ -1,0 +1,4 @@
+cd /
+cd /home/anand/test1
+docker build -t hello-world /home/anand/test1/
+docker run -d --name helloworld -p 80:80 hello-world
