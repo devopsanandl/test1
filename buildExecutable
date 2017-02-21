@@ -1,4 +1,6 @@
-cd /
+#!/bin/bash
+
+
 cd /home/anand/test1
-docker build -t hello-world /home/anand/test1/
-docker run -d --name helloworld -p 80:80 hello-world
+sudo docker build -t hello-world /home/anand/test1/
+sudo docker run -d --name helloworld -p 80:80 -v /home/anand/test1/src/:/var/www/html hello-world
