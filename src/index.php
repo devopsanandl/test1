@@ -1,4 +1,4 @@
-<dddd?php
-iiijkNFKMASLFMAFNKF$WelcoDDme =D "DHello Anand 12";
+<?php
+$Welcome = "Docker test 21";
 echo $Welcome;
 ?>
