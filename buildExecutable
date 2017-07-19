@@ -1,6 +1,0 @@
-#!/bin/bash
-
-
-cd /home/anand/test1
-sudo docker build -t hello-world /home/anand/test1/
-sudo docker run -d --name helloworld -p 80:80 -v /home/anand/test1/src/:/var/www/html hello-world
